@@ -1,0 +1,93 @@
+#main {
+    height: 630px;
+    min-width: 740px;
+    width: 740px;
+    margin: 40px auto;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Calibri
+}
+
+#container {
+    width: 570px;
+    display: inline-block;
+    float:left;
+}
+
+#next-item-container {
+    height: 150px;
+    width: 150px;
+
+}
+
+#right {
+    display: inline-block;
+    float: right;
+}
+
+.square, .nextSquare {
+    height: 35px;
+    width: 35px;
+    float: left;
+    border: 1px solid grey;
+    border-collapse: collapse;
+
+}
+
+.button, #game-over {
+    width: 150px;
+    height: 50px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    background-color: darkgrey;
+    border: 2px solid white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#score-label, #level-label, #score {
+    display: block;
+    width: 146px;
+    height: 35px;
+    background-color: darkgrey;
+    border: 2px solid white;
+    text-decoration: none;
+}
+#game-over-container {
+    display: none;
+    position:absolute;
+    top: 280px;
+    left: 200px;
+}
+
+#start {
+    width: 154px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: dimgrey;
+    display: block;
+    position:absolute;
+    top: 280px;
+    left: 200px;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+
+#new-game {
+    display: block;
+    width: 154px;
+    font-size: 20px;
+    height: 60px;
+    color: white;
+    background-color: dimgrey;
+    border: 2px solid white;
+    text-decoration: none;
+}

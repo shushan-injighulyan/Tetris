@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tetris</title>
+    <link rel = "stylesheet" href = "stylesheet.css">
+</head>
+<body>
+<div id = "main">
+    <div id = "container"></div>
+    <div id ="right">
+        <div id = "next-item-container"></div>
+        <button id = "start"  onclick = "start()">Start</button>
+        <div id = "score-label">Score</div>
+        <div id = "score">0</div>
+        <div>
+            <div  id = "level-label" > Level </div>
+            <select id = "level"  class = "button">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <button onclick = "pause()"  class = "button" >Pause</button>
+        <button onclick = "resume()" class = "button" >Resume</button>
+    </div>
+    <div id = "game-over-container">
+        <div id = "game-over">Game Over</div>
+        <button id = "new-game" onclick = "cleanArea()">New Game</button>
+    </div>
+</div>
+
+<script src = "script.js"> </script>
+</body>
+</html>
